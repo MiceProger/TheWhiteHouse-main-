@@ -1,7 +1,3 @@
-@font-face {
-    font-family: HKGrotesk;
-    src: url(../fonts/hk-grotesk.regular.ttf);
-}
 
 * {
     padding: 0px;
@@ -11,6 +7,7 @@
    *,
    *:before,
    *:after {
+    font-family: 'Hanken Grotesk';
     box-sizing: border-box;
    }
    :focus,
@@ -25,7 +22,6 @@
    html,
    body {
     height: 100%;
-    font-family: HKGrotesk;
    }
    body {
     text-rendering: optimizeLegibility;

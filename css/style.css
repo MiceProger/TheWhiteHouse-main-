@@ -11,6 +11,13 @@
   flex-wrap: nowrap;
 }
 
+.first__top{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
 .first__title{
   font-weight: 900;
   font-size: 75px;
@@ -22,8 +29,8 @@
   height: 6.6cm;
   width: 6.6cm;
   position: relative;
-  top: 70px;
-  left: -170px;
+  top: 110px;
+  left: -160px;
 }
 
 .first__img{
@@ -39,5 +46,23 @@
   top: -6.6cm;
   left: 470px;
 }
-
-.about-us{}.about-us__square1{}.about-us__text{}.about-us__title{}.contacts{}.contacts__phone{}.contacts__whatsup{}.discount{}.discount__img1{}.discount__img2{}.discount__img3{}.discount__img4{}.discount__square{}.discount__text{}.discount__title{}.divider{}.dividor{}.first{}.first__img{}.first__square1{}.first__square2{}.first__text{}.first__title{}.footer{}.footer__contacts{}.footer__img{}.footer__title{}.founder{}.founder__photo{}.founder__sqare{}.founder__text{}.founder__title{}.header__img{}.main{}.our-style{}.our-style__photo1{}.our-style__photo2{}.our-style__photo3{}.our-style__sqare1{}.our-style__sqare2{}.our-style__sqare3{}.our-style__title{}.our-styles{}.our-styles__art-deco{}.our-styles__classicism{}.our-styles__etno{}.our-styles__hay-tech{}.our-styles__loft{}.our-styles__minimalism{}.our-styles__modern{}.phone{}.phone__icon{}.phone__number{}.reviews{}.reviews__img{}.reviews__img2{}.reviews__square{}.reviews__text{}.reviews__title{}.special{}.special__img{}.special__text{}.special__title{}.sqare{}.square{}.stages{}.stages__img{}.stages__square{}.stages__stage1{}.stages__stage2{}.stages__stage3{}.stages__text{}.stages__title{}.styles{}.styles__img{}.styles__list{}.styles__sqare1{}.styles__square1{}.styles__text{}.styles__title{}.whatsup{}.whatsup__icon{}.whatsup__link{}.why-us{}.why-us__img{}.why-us__text{}.why-us__title{}.wrapper{}
+.about-us{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.about-us__title{
+  padding: 50px 0px 30px 40px;
+  font-size: 56px;
+  font-weight: 900;
+}
+.about-us__text{
+  padding-left: 40px;
+ }
+ .about-us__square1{
+  height: 6cm;
+  width: 6cm;
+  position: relative;
+  left: 42%;
+ }
