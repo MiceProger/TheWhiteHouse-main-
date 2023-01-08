@@ -7,7 +7,7 @@
    *,
    *:before,
    *:after {
-    font-family: 'Hanken Grotesk';
+    font-family: 'Roboto';
     box-sizing: border-box;
    }
    :focus,
@@ -42,15 +42,14 @@
     background-color: inherit;
    }
    a {
-    text-decoration: none;
     color: inherit;
    }
-   
-   ul li {
-    list-style: none;
+   li{
+    margin-left: 60px;
    }
    img {
     vertical-align: top;
+    position: relative;
    }
    h1,
    h2,
@@ -60,4 +59,14 @@
    h6 {
     font-weight: inherit;
     font-size: inherit;
+   }
+   section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 1500px;
+   }
+   div{
+    line-height: 1.4;
    }
