@@ -1,0 +1,425 @@
+/**************************** CONTEINERS STYLING ********************/
+.wrapper{
+    overflow: hidden;
+}
+.conteiner{
+  max-width: 1340px;
+  margin: 0 auto;
+  
+}
+
+/*************************** FIRST PAGE STYLING  *******************************/
+.first__logo{
+  width: 47%;
+  height: 26%;
+  min-width: 300px;
+  min-height: 166px;
+}
+
+.first__title{
+  font-weight: 900;
+  font-size: 75px;
+}
+.first__text{}
+.first__square1{
+  height: 15vw;
+  width: 15vw;
+  top: 10vw;
+  left: -28%;
+}
+
+.first__img{
+  height: 86%;
+  width: 64%;
+}
+
+.first__square2{
+  height: 15vw;
+  width: 15vw;
+  top: -15vw;
+  left: 24.5%;
+}
+
+/***************************** ABOUT US PAGE STYLING ***********************/
+
+.about-us__title{}
+.about-us__text{}
+ .about-us__square1{
+  height: 18%;
+  width: 18%;
+  left: 100%;
+ }
+
+/*********************** FOUUDER PAGE STYLING ******************************/
+
+ .founder__photo{
+  height: 50%;
+  width: 43%;
+  left: 5%;
+  margin-top: 50px;
+ }
+ .founder__square{
+  height: 24%;
+  width: 18%;
+  top: 60px;
+ }
+ .founder__square1{
+  height: 13.8%;
+  width: 12%; 
+  left: 90%;
+}
+ .founder__title{}
+
+/******************* STYLES PAGE STYLING ************************/
+.styles__sqare1{
+  height: 15vw;
+  width: 15vw;
+  
+  top: 4vw;
+  margin-top: -50px;
+  margin-top: 50px;
+}
+.styles__sqare2{
+  height: 15vw;
+  width: 15vw;
+  top: -17vw;
+  left: 55vw;
+  margin-bottom: -20vw;
+}
+.styles__img{
+  height: 33vw;
+  width: 62vw;
+  z-index: 5;
+  top:-7vw;
+  left: 5%;
+  
+}
+.styles__title{}
+.styles__square3{
+  height: 13vw;
+  width: 11.4vw; 
+  left: 90%;
+}
+
+/******************** YOUR STYLE STYLING *********************/
+
+/* .your-style{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}*/
+.your-style__photo1{
+  height: 35vw;
+  width: 71vw;
+  top: -6.5vw;
+  left: 2.8vw;
+}.your-style__photo2{
+  height: 24vw;
+  width: 47vw;
+  top: -8vw;
+  left: 31vw;
+  z-index: 5;
+}.your-style__photo3{
+  height: 30vw;
+  width: 44vw;
+  top: -34vw;
+}
+.your-style__sqare1{
+  height: 2.8vw;
+  width: 17vw;
+  left: 80%;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+.your-style__sqare2{
+  height: 15vw;
+  width: 10vw;
+}
+.your-style__sqare3{
+  height: 15vw;
+  width: 11vw;
+  left:73vw;
+  margin-top: -45vw;
+  z-index: -1;
+}
+
+.your-style__text{
+  margin-bottom: 1vw /**/;
+  min-width: none;
+}
+
+/******************* DISCOUNT PAGE STYLING *******************/
+.discount__img1{
+  height: 36vw /**/;
+  width: 54vw /**/;
+  top: -37vw /**/;
+  left: 8vw /**/;
+}
+.discount__img2{
+  height: 33.7vw /**/;
+  width: 50vw /**/;
+  top: -43vw /**/;
+    left: 29vw;
+  z-index: 3;
+}
+.discount__img3{
+  height: 25.7vw /**/;
+  width: 34.3vw /**/;
+  top: -49.6vw /**/;
+    left: 8vw /**/;
+  z-index: 2;
+}
+.discount__img4{
+  height: 24vw /**/;
+  width: 31.7vw /**/;
+  top: -71vw /**/;
+  left: 40vw /**/;
+}
+.discount__square{
+  height: 41.7vw /**/;
+  width: 5.7vw /**/;
+  top: 34.3vw /**/;
+}
+.discount__body{
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px -65vw 50px;
+}
+.discount__title{
+  margin-top: -10px;
+}
+/**************************** STAGES PAGE STYLING ********************/
+.stages__img{
+  height: 32.5vw /**/;
+  width: 57.7vw /**/;
+  left: 14.3vw /**/;
+  margin-bottom: 30px;
+}
+.stages__square{
+  height: 14.6vw /**/;
+  width: 14.7vw /**/;
+  position: relative;
+  left: 71.4vw /**/;
+  top: 5vw;
+}
+.stages__body{
+}
+
+/**************************** REVIEWS PAGE STYLING ***********************/
+.reviews-square{
+  height: 4.3vw /**/;
+  width: 10.9vw /**/;
+  top: 50px;
+  margin-bottom: 50px;
+}
+.reviews__img{
+  height: 30.3vw /**/;
+  width: 57.4vw /**/;
+  left: 40px;
+  margin-bottom: 50px;
+}
+.reviews__img2{
+  height: 37.1vw /**/;
+  width: 65.4vw /**/;
+  margin-bottom: 50px;
+}
+.reviews__img3{
+  height: 52vw /**/;
+  width: 60.6vw /**/;
+  margin-bottom: -14vw;
+  margin-top: 20px;
+}
+.reviews__text{
+}
+.reviews__text::before{
+  content: url('../assets/27.png');
+  position: relative;
+  left: -20px;
+}
+
+/******************************* IMAGE REVIEWS PAGE STYLING ************************/
+.img-reviews__img-chat1{
+  top:-5vw /**/;
+  left: 25vw;
+  margin-bottom: -5vw /**/;
+}
+.img-reviews__img-chat{
+  left: -15vw;
+}
+.img-reviews__title{
+  text-align: center;
+}
+.img-reviews__body{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-reviews-chat1{
+  height: 57.1vw /**/ ;
+  width: 46.6vw /**/;
+}
+.img-reviews-chat2{
+  height: 66.5vw /**/;
+  width: 44vw /**/;
+}
+.img-reviews-chat3{
+  height: 57.1vw /**/;
+  width: 43.7vw /**/;
+}
+.img-reviews-chat4{
+  height: 64.8vw /**/;
+  width: 45.7vw /**/;
+}
+.img-reviews-chat5{
+  height: 67.7vw /**/;
+  width: 45.7vw /**/;
+}
+.img-reviews-chat6{
+  height: 55.1vw /**/;
+  width: 43.1vw /**/;
+}
+
+/*********************** SPECIAL PAGE STYLING *****************/
+.special__body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.special__img{
+  height: 64.3vw /**/;
+  width: 81.7vw /**/;
+  margin-top: 20px;
+}
+
+.special__text{
+  background-color: rgb(22,100,216);
+  color: white;
+  padding: 50px 30px;
+}
+
+/********************************** WHY US PAGE STYLING ****************/
+.why-us__body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.why-us__text{
+  background-color: rgb(22,100,216);
+  color: white;
+  padding: 30px 50px;
+  margin: 30px;
+}
+
+.why-us__img{
+  height: 43.4vw /**/;
+  width: 65.4vw /**/;
+}
+/******************************* FOOTER STYLING*****************/
+
+.footer__img{
+  height: 64vw /**/;
+  width: 55.7vw /**/;
+}
+
+.footer__body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__title{
+  background-color: rgb(22,100,216);
+  color: white;
+  padding: 30px 70px;
+}
+.footer__contacts{
+  background-color: rgb(22,100,216);
+  color: white;
+  font-size: 52px;
+  padding: 20px 50px;
+}
+.contacts__whatsup{
+  margin-right: -190px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+}
+.whatsup__tip{
+  font-size: 15px;
+  position: relative;
+ /*  top: 20px;
+  left: -150px; */
+}
+.whatsup__text-conteiner{
+  display: flex;
+  flex-direction: column;
+}
+.whatsup__icon{
+  height: 55px;
+  width: 45px;
+  position: relative;
+  top: 12px;
+}
+.contacts__phone{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.phone__icon{
+  height: 35px;
+  width: 35px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .first__title{
+    font-size: 55px;
+  }
+  .block-title{
+    font-size: 40px;
+  }
+  .text{
+    font-size: 25px;
+  }
+  .divider{
+    height: 1cm;
+  }
+  .text::after{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .first__title{
+    font-size: 45px;
+  }
+  .block-title{
+    font-size: 25px;
+  }
+  .text{
+    font-size: 20px;
+  }
+  .whatsup__tip{
+    font-size: 8px;
+  
+  }
+}
+
+@media screen and (max-width:400px) {
+  .first__title{
+    font-size: 30px;
+  }
+  .block-title{
+    font-size: 20px;
+  }
+  .text{
+    font-size: 10px;
+  }
+  .whatsup__tip{
+    font-size: 5px;
+  
+  }
+}
