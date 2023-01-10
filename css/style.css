@@ -227,6 +227,7 @@
   height: 52vw /**/;
   width: 60.6vw /**/;
   margin-bottom: -14vw;
+  margin-top: 20px;
 }
 .reviews__text{
 }
@@ -239,12 +240,19 @@
 /******************************* IMAGE REVIEWS PAGE STYLING ************************/
 .img-reviews__img-chat1{
   top:-5vw /**/;
-  left: 40vw;
+  left: 25vw;
   margin-bottom: -5vw /**/;
 }
-
+.img-reviews__img-chat{
+  left: -15vw;
+}
 .img-reviews__title{
   text-align: center;
+}
+.img-reviews__body{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .img-reviews-chat1{
@@ -339,13 +347,15 @@
   gap: 15px;
   
 }
-.whatsup__link::after{
-  content:'КЛИКАБЕЛЬНО';
+.whatsup__tip{
   font-size: 15px;
-  text-decoration: none;
   position: relative;
-  top: 20px;
-  left: -150px;
+ /*  top: 20px;
+  left: -150px; */
+}
+.whatsup__text-conteiner{
+  display: flex;
+  flex-direction: column;
 }
 .whatsup__icon{
   height: 55px;
@@ -382,7 +392,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .first__title{
     font-size: 45px;
   }
@@ -392,8 +402,24 @@
   .text{
     font-size: 20px;
   }
-  .text::after{
+  .whatsup__tip{
     font-size: 8px;
+  
+  }
+}
+
+@media screen and (max-width:400px) {
+  .first__title{
+    font-size: 30px;
+  }
+  .block-title{
+    font-size: 20px;
+  }
+  .text{
+    font-size: 10px;
+  }
+  .whatsup__tip{
+    font-size: 5px;
   
   }
 }
